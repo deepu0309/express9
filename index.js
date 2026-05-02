@@ -5,7 +5,8 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send(`
-    <h2>Submit Form (Express9)</h2>
+<h2>Submit Form (Express9) 🚀</h2>
+<p style="color:green;">Deployed at: ${new Date().toLocaleString()}</p>
     <form onsubmit="submitForm(event)">
       <input id="name" placeholder="Name"/><br/><br/>
       <input id="email" placeholder="Email"/><br/><br/>
